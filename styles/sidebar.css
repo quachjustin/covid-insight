@@ -2,12 +2,10 @@ a {
     text-decoration: none;
 }
 
-a:link, a:visited {
-    color: blue;
-}
+
 
 a:hover {
-    color: red;
+    color: rgb(249, 224, 224);
 }
 
 .content{
@@ -19,7 +17,7 @@ a:hover {
     position:absolute;
     width: 80px;
     height: 100%;
-    background-color: rgb(176, 174, 174);
+    background-color: rgb(255, 255, 255);
 }
 
 .sidebar div {
