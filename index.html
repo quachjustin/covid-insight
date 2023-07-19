@@ -3,123 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Covid Relief</title>
-    <link href="styles/charts.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
     <link href="styles/sidebar.css" rel="stylesheet">
   </head>
-
-
   <body>
     <div class = "content">
       <div class = "sidebar">
-          <div><a href = "index.html">Home</a></div>
-          <div><a href = "charts.html">Stats</a></div>
-          <div><a href = "donate.html">Donate</a></div>
-          <div><a href = "vaccine.html">Vaccines</a></div>
-      </div>
-      <br>
-
-      <div class = "title">
-          <h1>COVID Data Tracker </h1>
+        <div><a href = "index.html">Home</a></div>
+        <div><a href = "charts.html">Stats</a></div>
+        <div><a href = "donate.html">Donate</a></div>
+        <div><a href = "vaccine.html">Vaccines</a></div>
       </div>
 
-      <div class = "mapsChartsData">
-          <h1>Update for the United States as of May 19, 2022</h1>
-          <h3>Maps, charts, and data provided by CDC </h3>
-      </div>
+      <div class = "container">
+        <div class = "aboutCovidContainer">
+          <h1 class = "aboutCovid">About Covid</h1>
+          <p class = "aboutCovidDes">
+          COVID-19 is the disease caused by SARS-CoV-2, the coronavirus that emerged in December 2019.
+          COVID-19 can be severe, and has caused millions of deaths around the world as well as lasting
+          health problems in some who have survived the illness. There are approximately 523M cases and 6.27M deaths worldwide.
+          The coronavirus can be spread from person to person. Covid-19 has mutated multiple times since it first broke out, Delta and Omicron.
+          coronavirus is spread through droplets and virus particles released into the air when an infected person breathes, talks, laughs, sings, coughs or sneezes. 
 
+        </p>
+        </div>
 
-      <div class="covidDataTracker"> 
-          <div>
-              <h1>Cases</h1>
-              <h3> 101,130 Average Cases</h3>
-              <img src="images/cases.jpg" alt="casesGraphs" width="300" height="150">
-          </div>
-          <br>
-          <div>
-              <h1> Deaths</h1> 
-              <h3>280 Average Deaths</h3>
-              <img src="images/deaths.jpg" alt="deathsGraph" width="300" height="150">
-          </div>
-          <br>
-          <div>
-              <h1> Hospitalizations</h1>
-              <h3> 3260 Average Admissions</h3>
-              <img src="images/hospitalization.jpg" alt="hospitalizationGraph" widt="300" height="150">
-          </div>
-          <br>
-          <div>
-              <h1> Vaccinations</h1>
-              <h3> 82.6% Atleast 1 Dose</h3>
-              <img src="images/vaccination3.jpg" alt="vaccinationGraph" width="300" height="150">
-          </div>
-      </div>
+        <div class = "symptomsContainer">
+          <h2 class = "symptoms">Symptoms</h2>
+          <p class = "symptomsDes">Symptoms may appear 2-14 days after exposure to the virus. 
+            People with these symptoms may have COVID-19:
 
-      <hr>
+            <div class= "image1">
+              <img src="images/signOfCovid.jpg" alt="covid" width="300" height="300" >
+            </div>
 
+            <ul>
+              <LI>Fever or chills</LI>
+              <LI>Cough</LI>
+              <LI>Shortness of breath or difficulty breathing</LI>
+              <LI>Fatigue</LI>
+              <LI>Muscle or body aches</LI>
+              <LI>Headache</LI>
+              <LI>New loss of taste or smell</LI>
+              <LI>Sore throat</LI>
+              <LI>Congestion or runny nose</LI>
+              <LI>Nausea or vomiting</LI>
+              <LI>Diarrhea</LI> 
+            </ul>
+            
+           
+            
+            Seek immediate medical attention if you have these symptons: 
+            
+            <ul>
+              <LI>Trouble breathing </LI>
+              <LI>Persistent pain or pressure in the chest </LI>
+              <LI> New confusion</LI>
+              <LI>Inability to wake or stay awake </LI>
+              <LI>Pale, gray, or blue-colored skin, lips, or nail beds, depending on skin tone </LI>
 
+            </ul>
+          </p>
+        </div>
 
-      <div class="updateTotalCases">
-          <h1>Total statistics of the United States</h1>
-      </div>
+        <div class = "howToProtectContainer">
+          <h2 class = "howToProtect"> How to protect yourself </h2>
+          <p class = "howToProtectDes">
+            <div class = "image2">
+              <img src="images/covid.jpg" alt="covid" width="300" height="300">
+            </div>
+            <ul>
+              <LI>Wear a mask that covers your nose and mouth </LI>
+              <LI>Stay at least 6 feet from one another</LI>
+              <LI>Get vacinated</LI>
+              <LI>Clean your hands often using soap for atleast 20 seconds</LI>
+              <LI>Clean frequently touched objects</LI>
+            </ul>
 
-
-      <div class="totalCovidDataTracker">
-          <div>
-              <h2>Total Cases</h2>
-              <h1> 82, 926,897 </h1>
-              <h3>The current 7-day moving average of daily new cases (101,130 ) increased by 18.8% compared with the previous 7-day moving average (85,143).</h3>
-              <h3>A total of 82,926,897 COVID-19 cases have been reported in the United States.</h3>
-          </div>
-          <hr>
-          <br>
-          <div>
-             <h2>Total Deaths</h2>
-             <h1> 998,512</h1>
-             <h3>The current 7-day moving average of new deaths (280) has decreased 1.2% compared with the previous 7-day moving average (284). </h3>
-             <h3>A total of 998,512 COVID-19 deaths have been reported in the United States.</h3>
-          </div>
-          <hr>
-          <br>
-          <div>
-              <h2>Total Hospitalizations</h2>
-              <h1>19,207</h1>
-              <h3> The current 7-day daily average for May 12–19, 2022, was 3,260. </h3>
-              <h3> This is a 24.2% increase from the prior 7-day average (2,617) from May 5–12, 2022.</h3>
-          </div>
-          <hr>
-          <br>
-          <div>
-              <h2>Total of Atleast 1 Dose</h2>
-              <h1>258,074,668 </h1>
-              <h3> 82.6% Percentage of the U.S. population that has received at least one dose. </h3>
-              <h3>66.5% Percentage of the U.S. population that has been fully vaccinated.</h3>
-          </div>
-      </div>
-      <hr>
-      <br>
-      <br>
-      <div class="casesByRegion">
-        <h1> Cases By Region</h1>
-        <h4> This chart shows how average daily cases per 100,000 people have changed in different parts of the country. The state with the highest recent average cases per 100,000 people is shown.</h4>
-        <img src="images/casesbyregion.jpg" alt="casesByRegion" width="800" height="400">
+          </p>
+        </div>
+      </div> 
     </div>
-<hr>
-          <br>
-          <br>
-          <br>
-      <div class="hotSpots">
-              <h1>Hot Spots</h1>
-              <img src="images/hotspots2.jpg" alt="casesByRegion" width="300" height="50">
-              <br>
-              <img src="images/hotspots.jpg" alt="casesByRegion" width="800" height="400">
-          </div>
-    </div>
-
-
-
-
-
-
-    
   </body>
 </html>
