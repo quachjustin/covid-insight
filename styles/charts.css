@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sidebar{
+    position:absolute;
+    width: 80px;
+    height: 100vh;
+    background-color: white;
+}
+
+.sidebar div {
+    transform: rotate(-90deg);
+    margin: 80px 0px;
+    padding: 6px 10px;
+    text-align: center;
+    height: 20px;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 10px;
+    
+}
+
+.title{
+    display: normal;
+    margin-left: 80px;
+    padding:50px;
+    width: calc(100vw - 180px);
+
+}
+
+.mapsChartsData{
+    display: normal;
+    margin-left: 80px;
+    padding:50px;
+    width: calc(100vw - 180px);
+    margin-top: -125px
+}
+
+
+.covidDataTracker{
+    display: flex;
+    margin-left: 80px;
+    padding: 50px;
+    width: calc(50vw - 170px);
+    margin-top: -100px
+    
+}
+
+.updateTotalCases {
+    display: normal;
+    margin-left: 80px;
+    padding:50px;
+    width: calc(100vw - 180px);
+    margin-top: -50px
+}
+
+.totalCovidDataTracker{
+    display: normal;
+    margin-left: 80px;
+    padding: 50px;
+    width: calc(50vw- 170px);
+    margin-top:-100px
+    
+    
+}
+
+.casesByRegion{
+    display: normal;
+    margin-left: 80px;
+    padding:50px;
+    width: calc(100vw - 180px);
+    margin-top: -100px
+}
+
+.hotSpots {
+    display: normal;
+    margin-left: 80px;
+    padding:50px;
+    width: calc(100vw - 180px);
+    margin-top: -100px
+}

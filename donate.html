@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covid Relief</title>
+    <link href="styles/donate.css" rel="stylesheet">
+    <link href="styles/sidebar.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "content">
+      <div class = "sidebar">
+          <div><a href = "index.html">Home</a></div>
+          <div><a href = "charts.html">Stats</a></div>
+          <div><a href = "donate.html">Donate</a></div>
+          <div><a href = "vaccine.html">Vaccines</a></div>
+      </div>
+      <div class = "container">
+        <h2 class = "title">Donate to COVID-19 Relief</h2>
+        <div class = "formContainer">
+          <div class = "form">
+            <span>Name:</span><input type="text" id = "name"/><br />
+            <span>Amount:</span><input type = "number" id = "amount"/><br />
+            <span>Message:</span><input type ="text" id = "desc"/><br /><br />
+            <button onclick="submitForm()">Donate</button>
+          </div>
+        </div><br />
+        <span class = "donationBoardTitle">Recent Donations</span><br/>
+        <div class = "donationBoard" id = "donationBoard">
+
+        </div>
+      </div>
+      <script src = "scripts/donate.js"></script>
+    </div>
+  </body>
+</html>
